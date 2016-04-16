@@ -1,3 +1,13 @@
+- name: Hungry Hungry Hacker CTF 2016
+  grade: 1st place
+  loc: Atlanta, GA
+  month: Apr 2016
+
+- name: Whitehat contest 2015
+  grade: 1st place(SysSec)
+  loc: Seoul, Korea
+  month: Nov 2015
+
 - name: Defcon 23 CTF
   grade: 1st place (DEFKOR)
   loc: Las Vegas, NV
