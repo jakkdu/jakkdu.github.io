@@ -2,6 +2,40 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container">
 
+  <h1>Insu Yun(윤인수)</h1>
+
+  <div class="row">
+    <div class="col-sm-8">
+      {{ site.data.bio }}
+    </div>
+    <div class="col-sm-4">
+      <img src="{{ " /assets/img/insu.jpg" | prepend: site.baseurl }}" />
+    </div>
+  </div>
+
+  <h2>Publication</h2>
+  <ol>
+    {% for pub in site.data.pubs %}
+    <li>
+    <b>{{ pub.title }}</b> <br>
+    {{ pub.author | join: ', '}} <br>
+    {{ pub.conf }} <br>
+    {{ pub.loc}} <br>
+    </li>
+    {% endfor %}
+  </ol>
+
+  <h2>Awards</h2>
+  <ol>
+    {% for pub in site.data.awards %}
+    <li>
+    <b>{{ pub.name }}</b>,
+    {{ pub.grade }},
+    {{ pub.loc }},
+    {{ pub.month }}
+    </li>
+    {% endfor %}
+  </ol>
 </div>

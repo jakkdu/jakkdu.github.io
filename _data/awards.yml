@@ -1,0 +1,44 @@
+- name: Defcon 23 CTF
+  grade: 1st place (DEFKOR)
+  loc: Las Vegas, NV
+  month: Aug 2015
+
+- name: Defcon 22 CTF
+  grade: 10th place (GoN)
+  loc: Las Vegas, NV
+  month: Aug 2015
+
+- name: Codegate CTF 2012
+  grade: 3rd place (GoN)
+  loc: Seoul, Korea
+  month: Apr 2012
+
+- name: Secuinside CTF 2011
+  grade: 3rd place(GoN)
+  loc: Seoul, Korea
+  month: Oct 2011
+
+- name: ISEC CTF 2011
+  grade: 1st place(GoN)
+  loc: Seoul, Korea
+  month: Sep 2011
+
+- name: Defcon 18 CTF
+  grade: 3rd place (KAIST@Postech)
+  loc: Las Vegas, NV
+  month: Aug 2010
+
+- name: Codegate CTF 2010
+  grade: 5th place (GoN)
+  loc: Seoul, Korea
+  month: Apr 2010
+
+- name: KISA HDCON 2009
+  grade: 2nd place(GoN)
+  loc: Seoul, Korea
+  month: May 2009
+
+- name: Codegate CTF 2009
+  grade: 4th place (GoN)
+  loc: Seoul, Korea
+  month: Apr 2009

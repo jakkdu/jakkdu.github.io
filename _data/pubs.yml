@@ -1,0 +1,26 @@
+- title: "HDFI: Hardware-Assisted Data-flow Isolation (to appear)"
+  conf: In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
+  author:
+    - Chengyu Song
+    - Hyungon Moon
+    - Monjur Alam
+    - <b>Insu Yun</b>
+    - Byoungyoung Lee
+    - Taesoo Kim
+    - Wenke Lee
+    - Yunheung Paek
+
+  loc: San Jose, CA, May 2016
+
+- title: "Kargus: a highly-scalable software-based intrusion detection system"
+  conf: In Proceedings of the 19th ACM Conference on Computer and Communications Security (CCS 2012)
+  author: 
+    - Muhammad Jamshed
+    - Jihyung Lee
+    - Sangwoo Moon
+    - <b>Insu Yun</b>
+    - Deokjin Kim
+    - Sungryoul Lee
+    - Yung Yi
+    - KyoungSoo Park
+  loc: Raleigh, NC, Oct 2012
