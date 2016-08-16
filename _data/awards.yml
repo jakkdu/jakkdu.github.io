@@ -1,3 +1,13 @@
+- name: Defcon 24 CTF
+  grade: 3rd grade (DEFKOR)
+  loc: Las Vegas, NV
+  month: Aug 2016
+
+- name: Darpa Cyber Grand Challenge(CGC)
+  grade: 7th grade (Disekt)
+  loc: Las Vegas, NV
+  month: Aug 2016
+
 - name: Hungry Hungry Hacker CTF 2016
   grade: 1st place
   loc: Atlanta, GA

@@ -34,12 +34,12 @@ layout: default
 
   <h2>Awards</h2>
   <ol>
-    {% for pub in site.data.awards %}
+    {% for award in site.data.awards %}
     <li>
-    <b>{{ pub.name }}</b>,
-    {{ pub.grade }},
-    {{ pub.loc }},
-    {{ pub.month }}
+    <b>{{ award.name }}</b>,
+    {{ award.grade }},
+    {{ award.loc }},
+    {{ award.month }}
     </li>
     {% endfor %}
   </ol>
