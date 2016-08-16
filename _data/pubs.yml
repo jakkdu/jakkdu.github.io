@@ -1,4 +1,4 @@
-- title: "APISan: Sanitizing API Usages through Semantic Cross-checking (to appear)"
+- title: "APISan: Sanitizing API Usages through Semantic Cross-checking"
   conf: "In Proceedings of the 25th USENIX Security Symposium (Security 2016)"
   author:
     - <b>Insu Yun</b>
