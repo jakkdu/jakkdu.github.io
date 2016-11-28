@@ -20,6 +20,16 @@ layout: default
     </div>
   </div>
 
+  <h2>News</h2>
+  <ul>
+    {% for e in site.data.news %}
+    <li>
+      <b>[{{ e.date }}]</b> {{ e.content }}
+    </li>
+    {% endfor %}
+  </ul>
+
+ 
   <h2>Publication</h2>
   <ol>
     {% for pub in site.data.pubs %}
