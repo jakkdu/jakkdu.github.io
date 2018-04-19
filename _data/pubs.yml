@@ -31,7 +31,7 @@
     - Mayur Naik
   loc: Austin, TX, August, 2016
 
-- title: "HDFI: Hardware-Assisted Data-flow Isolation (to appear)"
+- title: "HDFI: Hardware-Assisted Data-flow Isolation"
   conf: In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
   author:
     - Chengyu Song
