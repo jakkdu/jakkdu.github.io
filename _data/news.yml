@@ -1,9 +1,14 @@
+- date: 05/02/2018
+  content: QSYM is accepted to Security18
+
 - date: 11/11/2016
   content: APISan is nominated as the top 10 research papers by CSAW16
+
 - date: 06/09/2016
   content: A Python bug found by me (@Jakkdu) and Yeongjin(@blue9057), $1,000 from the Internet Bug Bounty
+
 - date: 05/13/2016
   content: APISan is accepted to Security16
+
 - date: 05/04/2016
   content: Three PHP bugs found by me (@Jakkdu) and Yeongjin (@blue9057), $1,500 from the Internet Bug Bounty
-    
