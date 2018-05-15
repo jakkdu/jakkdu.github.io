@@ -1,14 +1,22 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+import time
 
 AUTHOR = 'Insu Yun'
 SITENAME = 'Insu Yun'
 SITEURL = ''
-
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+CUSTOM_CSS = 'assets/css/insu.css' + '?' + str(time.time()) # to do not cache CSS
+THEME = 'themes/pelican-bootstrap3'
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['i18n_subsites']
+
+STATIC_PATHS = ['assets']
+
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
@@ -19,17 +27,12 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
-# Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
-
-# Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
-
 DEFAULT_PAGINATION = 10
+
+HIDE_SIDEBAR = True
+
+# pelican-bootstrap3 variables
+DISPLAY_TAGS_ON_SIDEBAR = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
