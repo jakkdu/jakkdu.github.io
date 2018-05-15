@@ -29,10 +29,9 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 10
 
-HIDE_SIDEBAR = True
-
 # pelican-bootstrap3 variables
 DISPLAY_TAGS_ON_SIDEBAR = False
+HIDE_SIDEBAR = True
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
