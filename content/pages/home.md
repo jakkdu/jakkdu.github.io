@@ -14,7 +14,7 @@ TEMPLATE: insu
     </p>
   </div>
   <div class="col-sm-4">
-    <img src=" images/insu.jpg" />
+    <img src=" assets/images/insu.jpg" />
   </div>
 </div>
 
