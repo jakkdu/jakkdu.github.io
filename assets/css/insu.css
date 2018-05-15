@@ -1,0 +1,17 @@
+body {
+  padding-top: 0px
+}
+
+@media (min-width: 864px) {
+  .container {
+    max-width: 864px;
+  }
+}
+
+pre {
+  background-color: #ffffff;
+  border: 0px;
+  font-family: sans-serif;
+  padding: 0 0 0 25px;
+  font-size: 14px;
+}
