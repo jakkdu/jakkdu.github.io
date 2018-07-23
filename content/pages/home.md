@@ -20,7 +20,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[05/13/2018] r00timentary is qualified for DEFCON CTF 2018 final.** 
+- **[07/20/2018] REPT is accepted to OSDI18.**
+- [05/13/2018] r00timentary is qualified for DEFCON CTF 2018 final.
 - [05/02/2018] QSYM is accepted to Security18.
 - [05/04/2017] AVPASS is accepted to Black Hat USA 2017.
 - [04/21/2017] CAB-Fuzz is accepted to ATC17.
@@ -34,27 +35,30 @@ News
 Publication
 -----------
 <pre>
-1. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing (to appear)**
+1. ** REPT: Reverse Debugging of Failures in Deployed Software (to appear)**
+    In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
+    Carlsbad, CA, October, 2018
+2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing (to appear)**
     **Insu Yun**, Sangho Lee, Meng Xu, Yeongjin Jang, and Taesoo Kim
     In Proceedings of the 27th USENIX Security Symposium (Security 2018)
     Baltimore, MD, August, 2018
-2. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically**
+3. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically**
     Jinho Jung, Chanil Jeon, Max Wolotsky, **Insu Yun**, Taesoo Kim
     BlackHat USA 2017 
-    Las Vegas, NV, Auguest 2017 
-3. **CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems**
+    Las Vegas, NV, Auguest, 2017
+4. **CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems**
     Su Yong Kim, Sangho Lee, **Insu Yun**, Wen Xu, Byoungyoung Lee, Youngtae Yun, Taesoo Kim
     In Proceedings of the 2017 USENIX Annual Technical Conference (ATC 2017)
     Santa Clara, CA, July 2017 
-4. **APISan: Sanitizing API Usages through Semantic Cross-checking**
+5. **APISan: Sanitizing API Usages through Semantic Cross-checking**
     **Insu Yun**, Changwoo Min, Xujie Si, Yeongjin Jang, Taesoo Kim, Mayur Naik
     In Proceedings of the 25th USENIX Security Symposium (Security 2016) 
     Austin, TX, August, 2016 
-5. **HDFI: Hardware-Assisted Data-flow Isolation**
+6. **HDFI: Hardware-Assisted Data-flow Isolation**
     Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, Yunheung Paek
     In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
     San Jose, CA, May 2016 
-6. **Kargus: a highly-scalable software-based intrusion detection system**
+7. **Kargus: a highly-scalable software-based intrusion detection system**
     Muhammad Jamshed, Jihyung Lee, Sangwoo Moon, **Insu Yun**, Deokjin Kim, Sungryoul Lee, Yung Yi, KyoungSoo Park
     In Proceedings of the 19th ACM Conference on Computer and Communications Security (CCS 2012)
     Raleigh, NC, Oct 2012
