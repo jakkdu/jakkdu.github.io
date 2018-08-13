@@ -20,7 +20,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[07/20/2018] REPT is accepted to OSDI18.**
+- ** [08/12/2018] DEFKOR00T won DEFCON CTF 2018. **
+- [07/20/2018] REPT is accepted to OSDI18.
 - [05/13/2018] r00timentary is qualified for DEFCON CTF 2018 final.
 - [05/02/2018] QSYM is accepted to Security18.
 - [05/04/2017] AVPASS is accepted to Black Hat USA 2017.
@@ -66,17 +67,18 @@ Publication
 
 Awards
 ------
-1. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
-2. **Darpa Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
-3. **Hungry Hungry Hacker CTF 2016**, 1st place, Atlanta, GA, Apr 2016
-4. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
-5. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
-6. **DEFCON 22 CTF**, 10th place (GoN), Las Vegas, NV, Aug 2014
-7. **SECCON CTF 2014**, 1st place(TOEFL Beginner), Tokyo, Japan, Feb 2014
-8. **Codegate CTF 2012**, 3rd place (GoN), Seoul, Korea, Apr 2012
-9. **Secuinside CTF 2011**, 3rd place (GoN), Seoul, Korea, Oct 2011
-10. **ISEC CTF 2011**, 1st place (GoN), Seoul, Korea, Sep 2011
-11. **DEFCON 18 CTF**, 3rd place (KAIST@Postech), Las Vegas, NV, Aug 2010
-12. **Codegate CTF 2010**, 5th place (GoN), Seoul, Korea, Apr 2010
-13. **KISA HDCON 2009**, 2nd place (GoN), Seoul, Korea, May 2009
-14. **Codegate CTF 2009**, 4th place (GoN), Seoul, Korea, Apr 2009
+1. **DEFCON 26 CTF**, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
+2. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
+3. **Darpa Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
+4. **Hungry Hungry Hacker CTF 2016**, 1st place, Atlanta, GA, Apr 2016
+5. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
+6. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
+7. **DEFCON 22 CTF**, 10th place (GoN), Las Vegas, NV, Aug 2014
+8. **SECCON CTF 2014**, 1st place(TOEFL Beginner), Tokyo, Japan, Feb 2014
+9. **Codegate CTF 2012**, 3rd place (GoN), Seoul, Korea, Apr 2012
+10. **Secuinside CTF 2011**, 3rd place (GoN), Seoul, Korea, Oct 2011
+11. **ISEC CTF 2011**, 1st place (GoN), Seoul, Korea, Sep 2011
+12. **DEFCON 18 CTF**, 3rd place (KAIST@Postech), Las Vegas, NV, Aug 2010
+13. **Codegate CTF 2010**, 5th place (GoN), Seoul, Korea, Apr 2010
+14. **KISA HDCON 2009**, 2nd place (GoN), Seoul, Korea, May 2009
+15. **Codegate CTF 2009**, 4th place (GoN), Seoul, Korea, Apr 2009
