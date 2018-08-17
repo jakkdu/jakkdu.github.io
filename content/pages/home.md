@@ -20,7 +20,8 @@ TEMPLATE: insu
 
 News
 ----
-- ** [08/12/2018] DEFKOR00T won DEFCON CTF 2018. **
+- **[08/15/2018] QSYM got a Distinguished Paper Award at USENIX Security'18!**
+- [08/12/2018] DEFKOR00T won DEFCON CTF 2018!
 - [07/20/2018] REPT is accepted to OSDI18.
 - [05/13/2018] r00timentary is qualified for DEFCON CTF 2018 final.
 - [05/02/2018] QSYM is accepted to Security18.
@@ -37,11 +38,12 @@ Publication
 -----------
 <pre>
 1. **REPT: Reverse Debugging of Failures in Deployed Software (to appear)**
-    Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (Alphabetical order)
+    Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (alphabetical)
     In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
     Carlsbad, CA, October, 2018
 2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing (to appear)**
     **Insu Yun**, Sangho Lee, Meng Xu, Yeongjin Jang, and Taesoo Kim
+    **Distinguished Paper Award**
     In Proceedings of the 27th USENIX Security Symposium (Security 2018)
     Baltimore, MD, August, 2018
 3. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically**
