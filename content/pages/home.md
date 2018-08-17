@@ -41,11 +41,11 @@ Publication
     Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (alphabetical)
     In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
     Carlsbad, CA, October, 2018
-2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing (to appear)**
+2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing**
     **Insu Yun**, Sangho Lee, Meng Xu, Yeongjin Jang, and Taesoo Kim
-    **Distinguished Paper Award**
     In Proceedings of the 27th USENIX Security Symposium (Security 2018)
     Baltimore, MD, August, 2018
+    ** * Distinguished Paper Award**
 3. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically**
     Jinho Jung, Chanil Jeon, Max Wolotsky, **Insu Yun**, Taesoo Kim
     BlackHat USA 2017 
@@ -58,6 +58,7 @@ Publication
     **Insu Yun**, Changwoo Min, Xujie Si, Yeongjin Jang, Taesoo Kim, Mayur Naik
     In Proceedings of the 25th USENIX Security Symposium (Security 2016) 
     Austin, TX, August, 2016 
+    ** * Nominated as a finalist in CSAW Best Applied Research Paper Award 2016 **
 6. **HDFI: Hardware-Assisted Data-flow Isolation**
     Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, Yunheung Paek
     In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
