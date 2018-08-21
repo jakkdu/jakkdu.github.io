@@ -57,8 +57,8 @@ Publication
     In Proceedings of the 25th USENIX Security Symposium (Security 2016) 
     Austin, TX, August, 2016 
     ** * Nominated as a finalist in CSAW Best Applied Research Paper Award 2016 **
-6. **HDFI: Hardware-Assisted Data-flow Isolation**
-    Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, Yunheung Paek [[paper]](pubs/2016/song:hdfi.pdf) [[slides]](pubs/2016/song:hdfi-slides.pdf) [[code]](https://github.com/sslab-gatech/hdfi)
+6. **HDFI: Hardware-Assisted Data-flow Isolation** [[paper]](pubs/2016/song:hdfi.pdf) [[slides]](pubs/2016/song:hdfi-slides.pdf) [[code]](https://github.com/sslab-gatech/hdfi)
+    Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, Yunheung Paek
     In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
     San Jose, CA, May 2016 
 7. **Kargus: a highly-scalable software-based intrusion detection system** [[paper]](pubs/2012/jamshed:kargus.pdf)
