@@ -14,7 +14,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['i18n_subsites']
 
-STATIC_PATHS = ['assets']
+STATIC_PATHS = ['assets', 'pubs']
 
 TIMEZONE = 'America/New_York'
 
