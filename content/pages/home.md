@@ -12,6 +12,10 @@ TEMPLATE: insu
       College of Computing</br>
       Georgia Institute of Technology</br>
     </p>
+    <ul>
+        <li> <a href="assets/cv.pdf">CV</a> </li>
+        <li> <a href="https://github.com/jakkdu">github</li>
+    </ul>
   </div>
   <div class="col-sm-4">
     <img src=" assets/images/insu.jpg" />
