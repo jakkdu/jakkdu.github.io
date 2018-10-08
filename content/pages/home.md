@@ -24,7 +24,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!**
+- **[10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!**
+- [08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!
 - [08/12/2018] DEFKOR00T won [DEFCON CTF 2018](https://twitter.com/oooverflow/status/1028814424352550912)!
 - [07/20/2018] REPT is accepted to [OSDI'18](https://www.usenix.org/conference/osdi18).
 - [05/13/2018] r00timentary is qualified for [DEFCON CTF 2018 final](https://twitter.com/oooverflow/status/995816622441955328).
@@ -43,6 +44,7 @@ Publication
     Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (alphabetical)
     In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
     Carlsbad, CA, October, 2018
+    ** * Jay Lepreau Best Paper Award**
 2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing** [[paper]](pubs/2018/yun:qsym.pdf) [[slides]](pubs/2018/yun:qsym-slides.pdf) [[code]](https://github.com/sslab-gatech/qsym)
     **Insu Yun**, Sangho Lee, Meng Xu, Yeongjin Jang, and Taesoo Kim
     In Proceedings of the 27th USENIX Security Symposium (Security 2018)
