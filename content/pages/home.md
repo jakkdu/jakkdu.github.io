@@ -30,10 +30,10 @@ News
 - [07/20/2018] REPT is accepted to [OSDI'18](https://www.usenix.org/conference/osdi18).
 - [05/13/2018] r00timentary is qualified for [DEFCON CTF 2018 final](https://twitter.com/oooverflow/status/995816622441955328).
 - [05/02/2018] QSYM is accepted to [Security'18](https://www.usenix.org/conference/usenixsecurity18).
-- [06/09/2016] A Python bug found by me (@Jakkdu) and Yeongjin(@blue9057), $1,000 from [the Internet Bug Bounty](https://hackerone.com/ibb-python).
 - [05/04/2017] AVPASS is accepted to [Black Hat USA 2017](https://www.blackhat.com/us-17/).
 - [04/21/2017] CAB-Fuzz is accepted to [ATC'17](https://www.usenix.org/conference/atc17).
 - [11/11/2016] APISan is nominated as the top 10 research papers by [CSAW'16](https://csaw.engineering.nyu.edu/research).
+- [06/09/2016] A Python bug found by me (@Jakkdu) and Yeongjin(@blue9057), $1,000 from [the Internet Bug Bounty](https://hackerone.com/ibb-python).
 - [05/13/2016] APISan is accepted to [Security'16](https://www.usenix.org/conference/usenixsecurity16).
 - [05/04/2016] Three PHP bugs found by me (@Jakkdu) and Yeongjin (@blue9057), $1,500 from [the Internet Bug Bounty](https://hackerone.com/ibb-php).
 
