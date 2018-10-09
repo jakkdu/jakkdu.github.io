@@ -40,7 +40,7 @@ News
 Publication
 -----------
 <pre>
-1. **REPT: Reverse Debugging of Failures in Deployed Software (to appear)**
+1. **REPT: Reverse Debugging of Failures in Deployed Software** [[paper]](pubs/2018/cui:rept.pdf) [[slides]](pubs/2018/cui:rept-slides.pdf)
     Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (alphabetical)
     In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
     Carlsbad, CA, October, 2018
