@@ -13,7 +13,7 @@ TEMPLATE: insu
       Georgia Institute of Technology</br>
     </p>
     <ul>
-        <li> <a href="assets/cv.pdf">CV</a> </li>
+        <li> <a href="https://github.com/jakkdu/cv/blob/master/cv.pdf" >CV</a> </li>
         <li> <a href="https://github.com/jakkdu">github</li>
     </ul>
   </div>
