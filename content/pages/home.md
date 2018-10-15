@@ -13,7 +13,7 @@ TEMPLATE: insu
       Georgia Institute of Technology</br>
     </p>
     <ul>
-        <li> <a href="https://github.com/jakkdu/cv/blob/master/cv.pdf" >CV</a> </li>
+        <li> <a href="https://docs.google.com/viewer?url=https://github.com/jakkdu/cv/raw/master/cv.pdf" >CV</a> </li>
         <li> <a href="https://github.com/jakkdu">github</li>
     </ul>
   </div>
@@ -76,8 +76,8 @@ Publication
 Awards
 ------
 1. **DEFCON 26 CTF**, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
-2. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
-3. **Darpa Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
+2. **Darpa Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
+3. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
 4. **Hungry Hungry Hacker CTF 2016**, 1st place, Atlanta, GA, Apr 2016
 5. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
 6. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
