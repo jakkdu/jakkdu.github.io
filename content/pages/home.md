@@ -14,7 +14,7 @@ TEMPLATE: insu
     </p>
     <ul>
         <li> <a href="https://docs.google.com/viewer?url=https://github.com/jakkdu/cv/raw/master/cv.pdf" >CV</a> </li>
-        <li> <a href="https://github.com/jakkdu">github</li>
+        <li> <a href="https://github.com/jakkdu">github</a></li>
     </ul>
   </div>
   <div class="col-sm-4">
