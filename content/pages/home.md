@@ -51,24 +51,24 @@ Publication
     Baltimore, MD, August, 2018
     ** * Distinguished Paper Award**
 3. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically** [[slides]](pubs/2017/jung:avpass-slides.pdf) [[code]](https://github.com/sslab-gatech/avpass)
-    Jinho Jung, Chanil Jeon, Max Wolotsky, **Insu Yun**, Taesoo Kim
+    Jinho Jung, Chanil Jeon, Max Wolotsky, **Insu Yun**, and Taesoo Kim
     BlackHat USA 2017 
     Las Vegas, NV, Auguest, 2017
 4. **CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems**
-    Su Yong Kim, Sangho Lee, **Insu Yun**, Wen Xu, Byoungyoung Lee, Youngtae Yun, Taesoo Kim [[paper]](pubs/2017/kim:cab-fuzz.pdf) [[slides]](pubs/2017/kim:cab-fuzz-slides.pdf)
+    Su Yong Kim, Sangho Lee, **Insu Yun**, Wen Xu, Byoungyoung Lee, Youngtae Yun, and Taesoo Kim [[paper]](pubs/2017/kim:cab-fuzz.pdf) [[slides]](pubs/2017/kim:cab-fuzz-slides.pdf)
     In Proceedings of the 2017 USENIX Annual Technical Conference (ATC 2017)
     Santa Clara, CA, July 2017 
 5. **APISan: Sanitizing API Usages through Semantic Cross-checking** [[paper]](pubs/2016/yun:apisan.pdf) [[slides]](pubs/2016/yun:apisan-slides.pdf) [[code]](https://github.com/sslab-gatech/apisan)
-    **Insu Yun**, Changwoo Min, Xujie Si, Yeongjin Jang, Taesoo Kim, Mayur Naik
+    **Insu Yun**, Changwoo Min, Xujie Si, Yeongjin Jang, Taesoo Kim, and Mayur Naik
     In Proceedings of the 25th USENIX Security Symposium (Security 2016) 
     Austin, TX, August, 2016 
     ** * Nominated as a finalist in CSAW Best Applied Research Paper Award 2016 **
 6. **HDFI: Hardware-Assisted Data-flow Isolation** [[paper]](pubs/2016/song:hdfi.pdf) [[slides]](pubs/2016/song:hdfi-slides.pdf) [[code]](https://github.com/sslab-gatech/hdfi)
-    Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, Yunheung Paek
+    Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, and Yunheung Paek
     In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
     San Jose, CA, May 2016 
 7. **Kargus: a highly-scalable software-based intrusion detection system** [[paper]](pubs/2012/jamshed:kargus.pdf)
-    Muhammad Jamshed, Jihyung Lee, Sangwoo Moon, **Insu Yun**, Deokjin Kim, Sungryoul Lee, Yung Yi, KyoungSoo Park
+    Muhammad Jamshed, Jihyung Lee, Sangwoo Moon, **Insu Yun**, Deokjin Kim, Sungryoul Lee, Yung Yi, and KyoungSoo Park
     In Proceedings of the 19th ACM Conference on Computer and Communications Security (CCS 2012)
     Raleigh, NC, Oct 2012
 </pre>
