@@ -76,8 +76,8 @@ Publication
 Awards
 ------
 1. **DEFCON 26 CTF**, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
-2. **Darpa Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
-3. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
+2. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
+3. **DARPA Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
 4. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
 5. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
 6. **DEFCON 22 CTF**, 10th place (GoN), Las Vegas, NV, Aug 2014
