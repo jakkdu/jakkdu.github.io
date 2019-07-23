@@ -25,7 +25,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!**
+- **[07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413) **
+- [10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!
 - [08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!
 - [08/12/2018] DEFKOR00T won [DEFCON CTF 2018](https://twitter.com/oooverflow/status/1028814424352550912)!
 - [07/20/2018] REPT is accepted to [OSDI'18](https://www.usenix.org/conference/osdi18).
