@@ -25,7 +25,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413) **
+- **[08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html). **
+- [07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413).
 - [10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!
 - [08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!
 - [08/12/2018] DEFKOR00T won [DEFCON CTF 2018](https://twitter.com/oooverflow/status/1028814424352550912)!
@@ -77,17 +78,18 @@ Publication
 
 Awards
 ------
-1. **DEFCON 26 CTF**, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
-2. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
-3. **DARPA Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
-4. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
-5. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
-6. **DEFCON 22 CTF**, 10th place (GoN), Las Vegas, NV, Aug 2014
-7. **SECCON CTF 2014**, 1st place(TOEFL Beginner), Tokyo, Japan, Feb 2014
-8. **Codegate CTF 2012**, 3rd place (GoN), Seoul, Korea, Apr 2012
-9. **Secuinside CTF 2011**, 3rd place (GoN), Seoul, Korea, Oct 2011
-10. **ISEC CTF 2011**, 1st place (GoN), Seoul, Korea, Sep 2011
-11. **DEFCON 18 CTF**, 3rd place (KAIST@Postech), Las Vegas, NV, Aug 2010
-12. **Codegate CTF 2010**, 5th place (GoN), Seoul, Korea, Apr 2010
-13. **KISA HDCON 2009**, 2nd place (GoN), Seoul, Korea, May 2009
-14. **Codegate CTF 2009**, 4th place (GoN), Seoul, Korea, Apr 2009
+1. **DEFCON 27 CTF**, 8th grade (r00timentary), Las Vegas, NV, Aug 2019
+2. **DEFCON 26 CTF**, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
+3. **DEFCON 24 CTF**, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
+4. **DARPA Cyber Grand Challenge (CGC)**, 7th grade (Disekt), Las Vegas, NV, Aug 2016
+5. **Whitehat contest 2015**, 1st place (SysSec), Seoul, Korea, Nov 2015
+6. **DEFCON 23 CTF**, 1st place (DEFKOR), Las Vegas, NV, Aug 2015
+7. **DEFCON 22 CTF**, 10th place (GoN), Las Vegas, NV, Aug 2014
+8. **SECCON CTF 2014**, 1st place(TOEFL Beginner), Tokyo, Japan, Feb 2014
+9. **Codegate CTF 2012**, 3rd place (GoN), Seoul, Korea, Apr 2012
+10. **Secuinside CTF 2011**, 3rd place (GoN), Seoul, Korea, Oct 2011
+11. **ISEC CTF 2011**, 1st place (GoN), Seoul, Korea, Sep 2011
+12. **DEFCON 18 CTF**, 3rd place (KAIST@Postech), Las Vegas, NV, Aug 2010
+13. **Codegate CTF 2010**, 5th place (GoN), Seoul, Korea, Apr 2010
+14. **KISA HDCON 2009**, 2nd place (GoN), Seoul, Korea, May 2009
+15. **Codegate CTF 2009**, 4th place (GoN), Seoul, Korea, Apr 2009
