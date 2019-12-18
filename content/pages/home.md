@@ -25,7 +25,8 @@ TEMPLATE: insu
 
 News
 ----
-- **[08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html). **
+- **[12/18/2019]** ArcHeap is accepted to [Security'20](https://www.usenix.org/conference/usenixsecurity20)!
+- [08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html). **
 - [07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413).
 - [10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!
 - [08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!
@@ -43,34 +44,38 @@ News
 Publication
 -----------
 <pre>
-1. **REPT: Reverse Debugging of Failures in Deployed Software** [[paper]](pubs/2018/cui:rept.pdf) [[slides]](pubs/2018/cui:rept-slides.pdf)
+1. **Automatic Techniques to Systematically Discover New Heap Exploitation Primitives (to appear)**
+    **Insu Yun**, Dhaval Kapil, and Taesoo Kim
+    In Proceedings of the 29th USENIX Security Symposium (Security 2020)
+    Boston, MA, August, 2020
+2. **REPT: Reverse Debugging of Failures in Deployed Software** [[paper]](pubs/2018/cui:rept.pdf) [[slides]](pubs/2018/cui:rept-slides.pdf)
     Weidong Cui, Xinyang Ge, Baris Kasikci, Ben Niu, Upamanyu Sharma, Ruoyu Wang, and **Insu Yun** (alphabetical)
     In Proceedings of the 13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 2018)
     Carlsbad, CA, October, 2018
     ** * Jay Lepreau Best Paper Award**
-2. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing** [[paper]](pubs/2018/yun:qsym.pdf) [[slides]](pubs/2018/yun:qsym-slides.pdf) [[code]](https://github.com/sslab-gatech/qsym)
+3. **QSYM: A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing** [[paper]](pubs/2018/yun:qsym.pdf) [[slides]](pubs/2018/yun:qsym-slides.pdf) [[code]](https://github.com/sslab-gatech/qsym)
     **Insu Yun**, Sangho Lee, Meng Xu, Yeongjin Jang, and Taesoo Kim
     In Proceedings of the 27th USENIX Security Symposium (Security 2018)
     Baltimore, MD, August, 2018
     ** * Distinguished Paper Award**
-3. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically** [[slides]](pubs/2017/jung:avpass-slides.pdf) [[code]](https://github.com/sslab-gatech/avpass)
+4. **AVPASS: Leaking and Bypassing Antivirus Detection Model Automatically** [[slides]](pubs/2017/jung:avpass-slides.pdf) [[code]](https://github.com/sslab-gatech/avpass)
     Jinho Jung, Chanil Jeon, Max Wolotsky, **Insu Yun**, and Taesoo Kim
     BlackHat USA 2017 
     Las Vegas, NV, Auguest, 2017
-4. **CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems**
+5. **CAB-Fuzz: Practical Concolic Testing Techniques for COTS Operating Systems**
     Su Yong Kim, Sangho Lee, **Insu Yun**, Wen Xu, Byoungyoung Lee, Youngtae Yun, and Taesoo Kim [[paper]](pubs/2017/kim:cab-fuzz.pdf) [[slides]](pubs/2017/kim:cab-fuzz-slides.pdf)
     In Proceedings of the 2017 USENIX Annual Technical Conference (ATC 2017)
     Santa Clara, CA, July 2017 
-5. **APISan: Sanitizing API Usages through Semantic Cross-checking** [[paper]](pubs/2016/yun:apisan.pdf) [[slides]](pubs/2016/yun:apisan-slides.pdf) [[code]](https://github.com/sslab-gatech/apisan)
+6. **APISan: Sanitizing API Usages through Semantic Cross-checking** [[paper]](pubs/2016/yun:apisan.pdf) [[slides]](pubs/2016/yun:apisan-slides.pdf) [[code]](https://github.com/sslab-gatech/apisan)
     **Insu Yun**, Changwoo Min, Xujie Si, Yeongjin Jang, Taesoo Kim, and Mayur Naik
     In Proceedings of the 25th USENIX Security Symposium (Security 2016) 
     Austin, TX, August, 2016 
     ** * Nominated as a finalist in CSAW Best Applied Research Paper Award 2016 **
-6. **HDFI: Hardware-Assisted Data-flow Isolation** [[paper]](pubs/2016/song:hdfi.pdf) [[slides]](pubs/2016/song:hdfi-slides.pdf) [[code]](https://github.com/sslab-gatech/hdfi)
+7. **HDFI: Hardware-Assisted Data-flow Isolation** [[paper]](pubs/2016/song:hdfi.pdf) [[slides]](pubs/2016/song:hdfi-slides.pdf) [[code]](https://github.com/sslab-gatech/hdfi)
     Chengyu Song, Hyungon Moon, Monjur Alam, **Insu Yun**, Byoungyoung Lee, Taesoo Kim, Wenke Lee, and Yunheung Paek
     In Proceedings of the 37th IEEE Symposium on Security and Privacy (Oakland 2016)
     San Jose, CA, May 2016 
-7. **Kargus: a highly-scalable software-based intrusion detection system** [[paper]](pubs/2012/jamshed:kargus.pdf)
+8. **Kargus: a highly-scalable software-based intrusion detection system** [[paper]](pubs/2012/jamshed:kargus.pdf)
     Muhammad Jamshed, Jihyung Lee, Sangwoo Moon, **Insu Yun**, Deokjin Kim, Sungryoul Lee, Yung Yi, and KyoungSoo Park
     In Proceedings of the 19th ACM Conference on Computer and Communications Security (CCS 2012)
     Raleigh, NC, Oct 2012
