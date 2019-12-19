@@ -26,7 +26,7 @@ TEMPLATE: insu
 News
 ----
 - **[12/18/2019]** ArcHeap is accepted to [Security'20](https://www.usenix.org/conference/usenixsecurity20)!
-- [08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html). **
+- [08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html).
 - [07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413).
 - [10/08/2018] REPT got a Jay Lepreau Best Paper Award at [USENIX OSDI'18](https://www.usenix.org/conference/osdi18/presentation/weidong)!
 - [08/15/2018] QSYM got a Distinguished Paper Award at [USENIX Security'18](https://www.usenix.org/conference/usenixsecurity18/presentation/yun)!
