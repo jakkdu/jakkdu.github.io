@@ -19,7 +19,10 @@ AWARD_MD = os.path.join(ROOT, "award.md")
 NEWS_NUM = 8
 MY_NAME = 'Insu Yun'
 
-def purify_bib_entry(entry):
+def md_highlight(s):
+    return '**%s**' % s
+
+def purify_bib_entry(entry, highlight):
     for k, v in entry.items():
         entry[k] = v.strip().lstrip('{').rstrip('}')
 
@@ -30,7 +33,7 @@ def purify_bib_entry(entry):
         authors = entry['author'].split(' and ')
         index = authors.index(MY_NAME)
         assert(index != -1)
-        authors[index] = '**%s**' % authors[index]
+        authors[index] = highlight(authors[index])
         entry['author'] = ', '.join(authors[:-1]) + ', and ' + authors[-1]
 
         if entry['ID'] == 'cui:rept':
@@ -42,7 +45,7 @@ def replace_text(text, key, content):
     assert(tag in text)
     return text.replace(tag, content)
 
-def make_pub():
+def read_bib(highlight):
     conf_dict = {}
     parser = BibTexParser(common_strings=True)
     conf_entries = bibtexparser.load(open(CONF_BIB), parser).entries
@@ -56,12 +59,22 @@ def make_pub():
     parser = BibTexParser(common_strings=True)
     pub_entries = bibtexparser.load(open(PUB_BIB), parser).entries
 
+    for i, entry in enumerate(pub_entries):
+        pub_entries[i] = purify_bib_entry(entry, highlight)
+
+    return conf_dict, pub_entries
+
+def make_pub():
+    conf_dict, pub_entries = read_bib(md_highlight)
     texts = ['<pre>']
 
-    for i, entry in enumerate(pub_entries):
-        entry = purify_bib_entry(entry)
+    count = 1
+    for entry in pub_entries:
+        # Skip non-top-tier paper in web site
+        if 'top-tier' in entry and entry['top-tier'] == 'no':
+            continue
+
         conf = conf_dict[entry['crossref']]
-        title = '%d. **%s**' % (i + 1, entry['title'])
 
         opts = [ ]
         file_id = os.path.join(conf['year'], entry['ID'])
@@ -76,7 +89,7 @@ def make_pub():
         if 'www-git' in entry:
             opts.append('[[code]](%s)' % entry['www-git'])
 
-        texts.append('%d. **%s** %s' % (i + 1, entry['title'], ' '.join(opts)))
+        texts.append('%d. **%s** %s' % (count, entry['title'], ' '.join(opts)))
         contents = [
                 entry['author'],
                 conf['title'],
@@ -88,6 +101,8 @@ def make_pub():
 
         for content in contents:
             texts.append('    ' + content)
+
+        count += 1
 
     texts += ['</pre>']
     return '\n'.join(texts)
