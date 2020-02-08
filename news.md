@@ -1,4 +1,4 @@
-[02/07/2019] DIE is accepted to [Oakland'20](https://www.ieee-security.org/TC/SP2020/)!
+[02/07/2020] DIE is accepted to [Oakland'20](https://www.ieee-security.org/TC/SP2020/)!
 [12/18/2019] ArcHeap is accepted to [Security'20](https://www.usenix.org/conference/usenixsecurity20)!
 [08/12/2019] r00timentary got 8th place in [DEFCON CTF](https://viz.oooverflow.io/final_scores.html).
 [07/23/2019] I finally made [a full-chain exploit for Safari in mac OS 10.14.5](https://twitter.com/insu_yun_en/status/1153742447115153413).
