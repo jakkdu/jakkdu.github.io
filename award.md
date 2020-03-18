@@ -1,3 +1,4 @@
+Pwn2Own 2020, Apple Safari with a kernel privilege escalation (SSLab_Gatech, $70K), Mar 2020
 DEFCON 27 CTF, 8th grade (r00timentary), Las Vegas, NV, Aug 2019
 DEFCON 26 CTF, 1st grade (DEFKOR00T), Las Vegas, NV, Aug 2018
 DEFCON 24 CTF, 3rd grade (DEFKOR), Las Vegas, NV, Aug 2016
