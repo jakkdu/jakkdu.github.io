@@ -1,0 +1,69 @@
+date: 2019/12/10
+proj: macOS
+cve: CVE-2019-8832
+desc: Memory corruption in macOS that leads arbitrary code execution with system privileges
+url: https://support.apple.com/en-us/HT210788
+
+date: 2019/07/23
+proj: Apple WebKit
+cve: CVE-2019-8688
+desc: Memory corrution in WebKit that leads to arbitrary code execution
+url: https://support.apple.com/en-us/HT210357
+
+date: 2017/11/30
+proj: FFmpeg
+cve: CVE-2017-17081
+desc: FFmpeg out-of-bound read in gmc_mmx
+url: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17081
+
+date: 2017/11/30
+proj: binutils
+cve: CVE-2017-17080
+desc: Binutils heap overflow in bfd_getl32
+url: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-17080
+
+date: 2017/03/12
+proj: audiofile
+cve: CVE-2017-6836
+desc: Audiofile heap overflow in Expand3To4Module::run
+url: http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-6836
+
+date: 2017/08/16
+proj: Openjpeg
+cve : CVE-2017-12878
+desc: Openjpeg 2.2.0 Heap Overflow
+url : http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-12878
+
+date: 2017/05/10
+proj: Lepton
+cve : CVE-2017-8891
+desc: Dropbox Lepton 1.2.1 DoS
+url : https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-8891
+
+date: 2016/06/09
+proj: Python
+desc: A heap overflow in zipimporter module
+url : https://bugs.python.org/issue26171
+cve : CVE-2016-5636, IBB-Python #26171
+with: Yeongjin Jang
+
+date: 2016/01/27
+proj: PHP
+cve : Bug #71450, IBB-PHP #113122
+desc: An integer overflow bug in php_str_to_str_ex() led arbitrary code execution.
+url : https://bugs.php.net/bug.php?id=71450
+with: Yeongjin Jang
+
+date: 2016/01/27
+proj: PHP
+cve : Bug #71449, IBB-PHP #113120
+desc: An integer overflow bug in php_implode() could lead heap overflow, make crashes
+url : https://bugs.php.net/bug.php?id=71449
+with: Yeongjin Jang
+
+date: 2016/01/24
+proj: PHP
+cve : Pull request #1738, IBB-PHP #113268
+url : https://github.com/php/php-src/pull/1738
+desc: Integer overflow in wordwrap
+
