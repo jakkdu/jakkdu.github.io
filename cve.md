@@ -49,21 +49,21 @@ with: Yeongjin Jang
 
 date: 2016/01/27
 proj: PHP
-cve : Bug #71450, IBB-PHP #113122
+cve : IBB-PHP #113122, Bug #71450
 desc: An integer overflow bug in php_str_to_str_ex() led arbitrary code execution.
 url : https://bugs.php.net/bug.php?id=71450
 with: Yeongjin Jang
 
 date: 2016/01/27
 proj: PHP
-cve : Bug #71449, IBB-PHP #113120
+cve : IBB-PHP #113120, Bug #71449
 desc: An integer overflow bug in php_implode() could lead heap overflow, make crashes
 url : https://bugs.php.net/bug.php?id=71449
 with: Yeongjin Jang
 
 date: 2016/01/24
 proj: PHP
-cve : Pull request #1738, IBB-PHP #113268
+cve : IBB-PHP #11326, Pull request #1738
 url : https://github.com/php/php-src/pull/1738
 desc: Integer overflow in wordwrap
 
