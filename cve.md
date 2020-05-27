@@ -1,3 +1,31 @@
+date: 2020/05/26
+proj: WebKit
+cve: CVE-2020-9850
+desc: Incorrect JIT modeling in WebKit that leads to type confusion
+url: https://support.apple.com/en-us/HT211177
+with: Yonghwi Jin, Jungwon Lim
+
+date: 2020/05/26
+proj: Safari
+cve: CVE-2020-9801
+desc: A logic issue that causes Safari to launch a malicious application
+url: https://support.apple.com/en-us/HT211177
+with: Yonghwi Jin, Jungwon Lim
+
+date: 2020/05/26
+proj: System Preferences
+cve: CVE-2020-9839
+desc: Race condition bug in macOS that leads to elevation of privilege
+url: https://support.apple.com/en-us/HT211170
+with: Yonghwi Jin, Jungwon Lim
+
+date: 2020/05/26
+proj: CVMS
+cve: CVE-2020-9856
+desc: Memory corruption in macOS that ledas to elevation of privilege
+url: https://support.apple.com/en-us/HT211170
+with: Yonghwi Jin, Jungwon Lim
+
 date: 2019/12/10
 proj: macOS
 cve: CVE-2019-8832
