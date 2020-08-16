@@ -89,6 +89,9 @@ def make_pub():
         if 'www-git' in entry:
             opts.append('[[code]](%s)' % entry['www-git'])
 
+        if 'www-url' in entry:
+            opts.append('[[web]](%s)' % entry['www-url'])
+
         texts.append('%d. **%s** %s' % (count, entry['title'], ' '.join(opts)))
         contents = [
                 entry['author'],
