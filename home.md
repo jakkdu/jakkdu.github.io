@@ -13,9 +13,9 @@ TEMPLATE: insu
       Georgia Institute of Technology</br>
     </p>
     <ul>
-        <li> <a href="https://raw.githubusercontent.com/jakkdu/cv/master/bio.txt">Bio</a> </li>
-        <li> <a href="https://docs.google.com/viewer?url=https://github.com/jakkdu/cv/raw/master/cv.pdf" >CV</a> </li>
-        <li> <a href="https://github.com/jakkdu">GitHub</a></li>
+        <li> <a href="https://raw.githubusercontent.com/insuyun/cv/master/bio.txt">Bio</a> </li>
+        <li> <a href="https://docs.google.com/viewer?url=https://github.com/insuyun/cv/raw/master/cv.pdf" >CV</a> </li>
+        <li> <a href="https://github.com/insuyun">GitHub</a></li>
     </ul>
   </div>
   <div class="col-sm-4">
