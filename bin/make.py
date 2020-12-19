@@ -106,14 +106,12 @@ def make_pub():
 
         texts.append('%d. **%s** %s' % (count, entry['title'], ' '.join(opts)))
 
-        loc = get_location(metadata)
-
         contents = [entry['author']]
         if 'booktitle' in metadata:
             contents.append(metadata['booktitle'])
         elif entry['ENTRYTYPE'] == 'phdthesis':
-            contents.append('Ph.D. thesis')
-        contents.append('%s, %s %s' % (loc, metadata['month'], metadata['year']))
+            contents.append('Ph.D. thesis, %s' % entry['school'])
+        contents.append('%s, %s %s' % (metadata['address'], metadata['month'], metadata['year']))
 
         if 'award' in entry:
             contents.append('** * %s **' % entry['award'])
