@@ -22,6 +22,12 @@ MY_NAME = 'Insu Yun'
 def md_highlight(s):
     return '**%s**' % s
 
+def authors_to_string(authors):
+    if len(authors) == 1:
+        return authors[0] # e.g., thesis
+    else:
+        return ', '.join(authors[:-1]) + ', and ' + authors[-1]
+
 def purify_bib_entry(entry, highlight):
     for k, v in entry.items():
         entry[k] = v.strip().lstrip('{').rstrip('}')
@@ -34,7 +40,7 @@ def purify_bib_entry(entry, highlight):
         index = authors.index(MY_NAME)
         assert(index != -1)
         authors[index] = highlight(authors[index])
-        entry['author'] = ', '.join(authors[:-1]) + ', and ' + authors[-1]
+        entry['author'] = authors_to_string(authors)
 
         if entry['ID'] == 'cui:rept':
             entry['author'] += ' (alphabetical)'
@@ -64,13 +70,23 @@ def read_bib(highlight):
 
     return conf_dict, pub_entries
 
+def get_location(entry):
+    if 'address' in entry:
+        return entry['address']
+    elif 'school' in entry:
+        return entry['school'] # for thesis
+    raise ValueError('Unexpected format')
+
 def make_pub():
     conf_dict, pub_entries = read_bib(md_highlight)
     texts = ['<pre>']
 
     count = 1
     for entry in pub_entries:
-        conf = conf_dict[entry['crossref']]
+        if 'crossref' in entry:
+            conf = conf_dict[entry['crossref']]
+        else:
+            conf = entry
 
         opts = [ ]
         file_id = os.path.join(conf['year'], entry['ID'])
@@ -89,10 +105,13 @@ def make_pub():
             opts.append('[[web]](%s)' % entry['www-url'])
 
         texts.append('%d. **%s** %s' % (count, entry['title'], ' '.join(opts)))
+
+        loc = get_location(conf)
+
         contents = [
                 entry['author'],
                 conf['title'],
-                '%s, %s %s' % (conf['address'], conf['month'], conf['year'])
+                '%s, %s %s' % (loc, conf['month'], conf['year'])
         ]
 
         if 'award' in entry:
