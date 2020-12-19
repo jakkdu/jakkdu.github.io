@@ -84,12 +84,12 @@ def make_pub():
     count = 1
     for entry in pub_entries:
         if 'crossref' in entry:
-            conf = conf_dict[entry['crossref']]
+            metadata = conf_dict[entry['crossref']]
         else:
-            conf = entry
+            metadata = entry
 
         opts = [ ]
-        file_id = os.path.join(conf['year'], entry['ID'])
+        file_id = os.path.join(metadata['year'], entry['ID'])
         paper_file = os.path.join('pubs', file_id + '.pdf')
         if os.path.exists(os.path.join(CONTENT_DIR, paper_file)):
             opts.append('[[paper]](%s)' % paper_file)
@@ -106,12 +106,14 @@ def make_pub():
 
         texts.append('%d. **%s** %s' % (count, entry['title'], ' '.join(opts)))
 
-        loc = get_location(conf)
+        loc = get_location(metadata)
 
         contents = [entry['author']]
-        if conf != entry:
-            contents.append(conf['title'])
-        contents.append('%s, %s %s' % (loc, conf['month'], conf['year']))
+        if 'booktitle' in metadata:
+            contents.append(metadata['booktitle'])
+        elif entry['ENTRYTYPE'] == 'phdthesis':
+            contents.append('Ph.D. thesis')
+        contents.append('%s, %s %s' % (loc, metadata['month'], metadata['year']))
 
         if 'award' in entry:
             contents.append('** * %s **' % entry['award'])
