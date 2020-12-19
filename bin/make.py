@@ -108,11 +108,10 @@ def make_pub():
 
         loc = get_location(conf)
 
-        contents = [
-                entry['author'],
-                conf['title'],
-                '%s, %s %s' % (loc, conf['month'], conf['year'])
-        ]
+        contents = [entry['author']]
+        if conf != entry:
+            contents.append(conf['title'])
+        contents.append('%s, %s %s' % (loc, conf['month'], conf['year']))
 
         if 'award' in entry:
             contents.append('** * %s **' % entry['award'])
