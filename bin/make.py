@@ -70,10 +70,6 @@ def make_pub():
 
     count = 1
     for entry in pub_entries:
-        # Skip non-top-tier paper in web site
-        if 'top-tier' in entry and entry['top-tier'] == 'no':
-            continue
-
         conf = conf_dict[entry['crossref']]
 
         opts = [ ]
