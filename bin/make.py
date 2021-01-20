@@ -36,14 +36,18 @@ def purify_bib_entry(entry, highlight):
         # Change author1 and author2 and author3
         # -> author, author2, and author3
         # and highlight my name
+        has_cofirst = '\\*' in entry['author']
         authors = entry['author'].split(' and ')
         index = authors.index(MY_NAME)
         assert(index != -1)
         authors[index] = highlight(authors[index])
         entry['author'] = authors_to_string(authors)
 
+        # alphabetic order
         if entry['ID'] == 'cui:rept':
             entry['author'] += ' (alphabetical)'
+        if has_cofirst:
+            entry['author'] += ' (* co-first)'
     return entry
 
 def replace_text(text, key, content):
@@ -111,7 +115,11 @@ def make_pub():
             contents.append(metadata['booktitle'])
         elif entry['ENTRYTYPE'] == 'phdthesis':
             contents.append('Ph.D. thesis, %s' % entry['school'])
-        contents.append('%s, %s %s' % (metadata['address'], metadata['month'], metadata['year']))
+
+        place = ''
+        if 'address' in metadata:
+            place += '%s, ' % metadata['address']
+        contents.append('%s %s' % ( metadata['month'], metadata['year']))
 
         if 'award' in entry:
             contents.append('** * %s **' % entry['award'])
