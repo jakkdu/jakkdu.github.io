@@ -36,8 +36,13 @@ def purify_bib_entry(entry, highlight):
         # Change author1 and author2 and author3
         # -> author, author2, and author3
         # and highlight my name
-        has_cofirst = '\\*' in entry['author']
-        authors = entry['author'].split(' and ')
+        authors = entry['author']
+
+        has_cofirst = '*' in authors
+        if has_cofirst:
+            # handle asterisk for markdown
+            authors = authors.replace('*', '\\*')
+        authors = authors.split(' and ')
         index = authors.index(MY_NAME)
         assert(index != -1)
         authors[index] = highlight(authors[index])
